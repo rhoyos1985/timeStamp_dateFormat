@@ -1,0 +1,30 @@
+{
+  "name": "timestamp_dateformat",
+  "version": "0.1.0",
+  "description": "Modulo que permite dar cualquier formato a la fecha",
+  "main": "dist/src/timestamp_dateformat.js",
+  "scripts": {
+    "build": "babel src/timeStamp_dateFormat.js -d dist",
+    "test" : "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhoyos1985/timeStamp_dateFormat.git"
+  },
+  "keywords": [
+    "Format",
+    "date",
+    "date",
+    "change",
+    "date",
+    "js"
+  ],
+  "author": "rhoyos1985",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0",
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  }
+}
